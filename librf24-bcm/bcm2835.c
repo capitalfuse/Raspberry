@@ -116,7 +116,7 @@ uint32_t bcm2835_peri_read(uint32_t* paddr)
 	// Make sure we dont return the _last_ read which might get lost
 	// if subsequent code changes to a different peripheral
 	uint32_t ret = *paddr;
-	*paddr; // Read without assigneing to an unused variable
+	// *paddr; Read without assigneing to an unused variable
 	return ret;
     }
 }
