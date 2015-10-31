@@ -356,7 +356,7 @@
 /// Physical addresses for various peripheral register sets
 /// Base Physical Address of the BCM 2835 peripheral registers
 /// Note this is different for the RPi2 BCM2836, where this isderived from /proc/device-tree/soc/ranges
-#define BCM2835_PERI_BASE               0x20000000
+#define BCM2835_PERI_BASE               0x3f000000
 /// Size of the perioherals block on RPi 1
 #define BCM2835_PERI_SIZE               0x01000000
 
